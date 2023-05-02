@@ -15,11 +15,13 @@ h1 {
     color: #beb78f;
 }
 
+
 .piano {
     background-color: #121212;
     width: 1000px;
     height: 400px;
-    margin: 100px auto 0;
+    margin: 150px;
+    margin-left: 300px;
     border-radius: 20px;
     color: white;
     display: flex;
@@ -147,3 +149,24 @@ margin-right: 20px;
     opacity: 0;
 
 }
+
+@media (max-width: 600px) {
+
+    .piano {
+        background-color: #121212;
+        width: 640px;
+        height: 400px;
+    
+        margin: 130px 0px 0px -145px;
+        transform: rotate(90deg);
+        border-radius: 20px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
